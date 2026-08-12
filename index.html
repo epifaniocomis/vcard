@@ -5,6 +5,104 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Epifanio Comis | Digital Business Card</title>
 <style>
+:root {
+    --bg:#080a12;
+    --panel:#12182c;
+    --gold:#d6b56d;
+    --cream:#f8f2e7;
+    --muted:#cbc5b4;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:radial-gradient(circle at top, #20284a, var(--bg));
+    color:var(--cream);
+    font-family:"Times New Roman", Times, serif;
+    padding:24px;
+}
+
+.card {
+    width:min(430px, 100%);
+    border:1px solid rgba(214,181,109,.55);
+    border-radius:34px;
+    background:rgba(18,24,44,.94);
+    padding:28px 24px 30px;
+    text-align:center;
+    box-shadow:0 24px 70px rgba(0,0,0,.45);
+}
+
+.photo {
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:3px solid var(--gold);
+    box-shadow:0 12px 35px rgba(0,0,0,.45);
+}
+
+h1 {
+    margin:22px 0 8px;
+    color:var(--gold);
+    font-size:30px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+}
+
+.role {
+    margin:0;
+    font-size:20px;
+    font-style:normal;
+}
+
+.org {
+    margin:8px 0 22px;
+    color:var(--muted);
+    line-height:1.35;
+}
+
+.links {
+    display:grid;
+    gap:9px;
+    margin:18px 0 22px;
+    font-family:"Times New Roman", Times, serif;
+}
+
+a {
+    color:var(--cream);
+    text-decoration:none;
+}
+
+.button {
+    border:1px solid rgba(214,181,109,.45);
+    border-radius:999px;
+    padding:11px 14px;
+    background:rgba(214,181,109,.08);
+    font-size:14px;
+}
+
+.qr {
+    width:180px;
+    height:180px;
+    background:white;
+    padding:10px;
+    border-radius:18px;
+}
+
+.caption {
+    color:var(--gold);
+    font-family:"Times New Roman", Times, serif;
+    margin:10px 0 0;
+    font-size:14px;
+}
+</<style>
 :root { --bg:#080a12; --panel:#12182c; --gold:#d6b56d; --cream:#f8f2e7; --muted:#cbc5b4; }
 * { box-sizing:border-box; }
 body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; background:radial-gradient(circle at top, #20284a, var(--bg)); color:var(--cream); font-family: Georgia, 'Times New Roman', serif; padding:24px; }
