@@ -1,14 +1,18 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:Epifanio Comis
 N:Comis;Epifanio;;;
+FN:Epifanio Comis
 TITLE:Artistic Director
 ORG:Ljubljana Festival International Piano Competition
+
 TEL;TYPE=CELL:+393281535555
-EMAIL:epifaniocomis@mail.com
-URL:https://www.linkedin.com/in/epifanio-comis-8b1249361/
-URL:https://www.facebook.com/epifanio.comis/
-URL:https://www.instagram.com/epifaniocomis
+EMAIL;TYPE=INTERNET:epifaniocomis@mail.com
+
+X-SOCIALPROFILE;type=LinkedIn:https://www.linkedin.com/in/epifanio-comis-8b1249361/
+X-SOCIALPROFILE;type=Facebook:https://www.facebook.com/epifanio.comis/
+X-SOCIALPROFILE;type=Instagram:https://www.instagram.com/epifaniocomis
+
 URL:https://www.istitutobellini.it/2020/?page_id=5301
 URL:https://www.ljubljanafestival.si/en/competitions/piano-2026/
+
 END:VCARD
